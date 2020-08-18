@@ -1,0 +1,81 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
+body{
+    background-color:hsl(0, 0%, 98%);
+}
+h2{
+    font-weight:normal ;
+}
+section{
+    height: 250px;
+    border-radius: 20px;
+    text-align: left;
+    padding: 30px 45px;
+    position: relative;
+    box-shadow: 0 11px 19px rgb(100, 100, 100) ;
+}
+.reli{
+    font-weight: 200;
+    color:hsl(229, 6%, 66%);
+}
+.pow{
+    font-weight: 600;
+    color : hsl(234, 12%, 34%);
+}
+p{
+    font-weight:200;
+    
+    color:hsl(229, 6%, 66%);
+}
+.head{
+    font-weight: 600;
+    color : hsl(234, 12%, 34%);
+}
+
+.container{
+    border:none;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.team{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.cal{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: relative;
+    top:50%;
+}
+.sup{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: relative;
+    top:50%;
+}
+img{
+    position: absolute;
+    bottom: 29px;
+    right: 34px;
+}
+@media (max-width: 767.9px){
+    .cal, .sup{
+        top:0;
+    }
+}
+@media(max-width: 991.9px){
+    section{
+        padding: 8px 25px;
+    }
+    img{
+        bottom:24px;
+    }
+}
